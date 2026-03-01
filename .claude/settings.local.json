@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"from database.db_manager import obtener_usuarios; users = obtener_usuarios\\(\\); print\\(f''Conexion OK - {len\\(users\\)} usuarios encontrados''\\); print\\(users\\)\")",
+      "Bash(python -c \":*)"
+    ]
+  }
+}
